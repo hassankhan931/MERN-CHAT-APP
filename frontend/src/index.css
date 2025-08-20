@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-gray-100;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
